@@ -1,0 +1,53 @@
+.re-header{
+	padding:60px;
+	text-align:center;
+	background:rgb(0,144,244);
+	color:white;
+	font-size:30px;
+}
+.re-example{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	box-shadow:0 0 3px rgba(0,0,0,0.2);
+
+}
+.re-about h4{
+	text-align:center;
+	font-size:32px;
+	background-color:rgb(0,144,244);
+	color:white;
+}
+p{
+	counter-reset:line;
+	display:inline-block;
+}
+code{
+	counter-increment:line;
+	margin:20px;
+}
+code:before{
+    content: counter(line);
+}
+code:before{
+    -webkit-user-select: none;
+}
+.re-blue-btn{
+	padding:15px;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:18px;
+	color:white;
+	background-color:rgb(0,144,244);
+	border:solid 1px rgb(0,144,244);
+	border-radius:5px;
+	width:50%;
+	text-decoration:none;
+	text-align:center;
+
+}
+.re-con{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}

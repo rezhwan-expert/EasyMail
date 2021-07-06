@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" type="text/css" href="style/re.css"/>
+</head>
+<body>
+    <div class="re-header">
+    	<section>
+    	   <h1>EasyMail.NET</h1>
+    	   <p>Send email in c# with easy method,in just 4 line of code</p>	
+    	</section>
+    </div>
+    <div class="w3-container">
+       <section><br>
+       	   <div class="re-con">
+           <a href="https://www.nuget.org/packages/EasyMail/" class="re-blue-btn">Download From Nuget</a>
+       </div>
+       </section>
+       <section><br>
+       	   <h3 style="text-align:center;">Simple Use</h3>
+       	   <div class="re-example">
+       	     <p>
+   Setup Server Information
+   <br>
+        <code>- Mail mail = new Mail();</code><br>
+        <code>- mail.R_SMTP_Server = "test@smt_or_122.22.example";</code><br>
+        <code>- mail.R_SMTP_User = "example@example.com";</code><br>
+        <code>- mail.R_SMTP_Password = "your_password_user";</code><br>
+        <code>- mail.R_SMTP_Port = 25;default smtp port or smtp@gmail port is 587</code><br>
+        <code>- mail.R_HTML_Body = false; set true if you want send html email,by default value is false</code><br>
+        <code>- mail.R_SSL_Enable = true; set true,by default value is false</code><br>
+        Send Mail<br>
+        <code>- mail.R_Send_Mail("to", "subject", "msg");</code><br>
+        Send Mail With Attachment<br>
+        <code>- mail.R_Send_Mail("to", "subject", "msg", "AttachMent");</code><br>
+       	     </p>
+       	   </div>
+       </section>
+       <section>
+         <h3 style="text-align:center;">Get Send Status</h3>
+         <div class="re-example">
+            <p>
+        <code>- bool send = Mail_Status.RIsSend;</code><br>
+        <code>- bool notsend = Mail_Status.RIsFailed;</code>
+            </p>
+         </div>
+       </section><br>
+    </div>
+    <div class="re-about">
+        <h4>Developed By Rezhwan Ameer</h4>
+    </div>
+</body>
+</html>
